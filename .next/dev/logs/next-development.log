@@ -1,0 +1,55 @@
+[00:00:05.922] Server  LOG     
+[00:00:05.922] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:05.922] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:05.923] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:05.923] Server  LOG     
+[00:00:05.923] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:05.924] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:05.924] Server  LOG     
+[00:00:06.156] Server  LOG      ✓ Ready in 5.8s
+[00:00:09.187] Server  LOG      ○ Compiling / ...
+[00:00:10.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.586] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.586] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.586] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763441314553}
+[00:02:46.790] Server  LOG      ✓ Compiled in 46ms
+[00:02:47.088] Browser ERROR   ./components/sections/hero.tsx:54:27
+Parsing ecmascript source code failed
+  52 |         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+  53 |           <button
+> 54 |             onClick={https://drive.google.com/file/d/1u319j3TP1SowVMSYhHF315Ni2hKpOGIV/view?usp=sharing}
+     |                           ^
+  55 |             className="px-8 py-3 rounded-lg glass-effect-strong neon-glow hover:neon-glow transition-all duration-300 border-primary text-foreground font-semibold hover:scale-105 active:scale-95"
+  56 |           >
+  57 |             Descargar CV
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/sections/hero.tsx
+    ./app/page.tsx
+[00:02:47.934] Server  LOG      ✓ Compiled in 32ms
+[00:02:48.083] Browser ERROR   ./components/sections/hero.tsx:55:13
+Parsing ecmascript source code failed
+  53 |           <button
+  54 |             onClick={}
+> 55 |             className="px-8 py-3 rounded-lg glass-effect-strong neon-glow hover:neon-glow transition-all duration-300 border-primary text-foreground font-semibold hover:scale-105 active:scale-95"
+     |             ^^^^^^^^^
+  56 |           >
+  57 |             Descargar CV
+  58 |           </button>
+
+Expected '</', got 'className'
+
+Import trace:
+  Server Component:
+    ./components/sections/hero.tsx
+    ./app/page.tsx
+[00:03:59.744] Server  LOG      ✓ Compiled in 26ms
+[00:27:36.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:36.449] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:36.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:27:36.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763442960419}
